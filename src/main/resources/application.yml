@@ -1,0 +1,13 @@
+# 应用名称
+spring.application.name: cloud-example
+server:
+  servlet:
+    context-path: /demo
+  port: 5050
+  tomcat:
+    max-connections: 100
+    threads:
+      max: 30
+      min-spare: 20
+
+
